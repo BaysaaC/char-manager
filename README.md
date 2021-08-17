@@ -7,7 +7,7 @@ A Comics fan client would like to manage his favorites characters on a dashboard
 
 ## End result :
 **Github Page URL :**
-*COMING SOON*
+https://baysaaaa.github.io/char-manager/
 
 ## Project dates:
 Project start: Tuesday 10 August 2021
@@ -16,6 +16,7 @@ Project end: Tuesday 17 August 2021
 ## Project status (latest first):
 |DATE|STATUS|
 |----|------|
+|2021-08-17 | Version 1 of the application |
 |2021-08-11 | HTML and CSS of the 3 pages|
 |2021-08-10 | Created the present README file.|
 
