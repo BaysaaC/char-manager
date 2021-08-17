@@ -177,7 +177,7 @@ h1 {
 }
 
 .container {
-  width:90%;
+  width:80%;
   padding:1rem;
   margin:auto;
   text-align:center;
@@ -197,6 +197,7 @@ h1 {
 }
 
 .button {
+  margin:1rem;
   padding:1em;
   border-radius:0.5rem;
 }
@@ -205,6 +206,10 @@ h1 {
   background-color: #4B7CFB;
   font-style: italic;
 }
+.button--italicBlue:hover {
+  background-color:green;
+}
+
 
 .button--italicRed {
   background-color:#363333;
@@ -212,6 +217,11 @@ h1 {
   font-style: italic;
   color:#BF3A30;
 }
+.button--italicRed:hover {
+  background-color:#BF3A30;
+  color:white;
+}
+
 
 
 /* END OF SINGLE CHARACTER PAGE STYLES */
@@ -238,21 +248,19 @@ h1 {
   flex-direction: column;
 }
 
-input {
-  padding:0.5rem;
-  color:black; /* TO BE SET TO WHITE IF "MARKDOWN EDITOR" TOOL IN PLACE OF BASIC STANDARD HTML FORM*/
+.textInput{
+  padding: 0.5rem;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  background-color:#434343;
+  margin-top:0.5rem;
 }
 
 .input--hidden{
   display:none;
-
-}
-input:valid {
-  background-color: #ceffce;
-}
-
-input:invalid {
-  background-color: #ff968e;
 }
 
 

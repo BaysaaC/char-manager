@@ -20,15 +20,15 @@
         <title>Create a new Character</title>
     </head>
     <body class="characterBody">
-        <header class="header">
-            <h1 class="header__heading">
+        <header class="charhead">
+            <h1 class="charhead__title">
                 <a class="charhead__title--link" href="index.html" target="_blank">
                     CHARACTER MANAGER
                 </a>
             </h1>
-            <hr>
         </header>
-        <main class="createPage">
+        <hr class="charhead__division">
+        <main class="charmain">
             <section class="createPage__createContainer container">
                 <div id="preview" class="createContainer__imgPreview imgPreview">
                     <p>Preview</p>
@@ -39,8 +39,8 @@
                     <input type="text" name="image" id="image" class="textInput dataSegment input--hidden">
                     <input type="text" name="name" id="name" class="textInput" maxlength="20" placeholder="Enter your character's name. Example: Batman" >
                     <input type="text" name="shortDescription" id="shortDescription" class="textInput" maxlength="70" placeholder="Enter a short description of your character." >
-                    <input type="text" name="longDescription" id="description" class="textInput" maxlength="350" placeholder="Enter the full description of your character." >
-                    <div class="from__buttons">
+                    <textarea name="longDescription" id="description" class="textInput" maxlength="350" placeholder="Enter the full description of your character." ></textarea>
+                        <div class="form__buttons">
                         <button type="button" class="form__button button button--italicBlue" id="save">
                             Save changes
                         </button>
